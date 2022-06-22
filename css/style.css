@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+:root{
+	--color-titulos:#2750d0;
+	--color-contenido:#333;
+	--color-naranja:#ff9f06;
+	--color-azul:#2750d0;
+	--fondo-footer:#091f5b;
+}
+
+h2{
+	color: var(--color-titulos);
+	font-weight: 800;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10%;
+	
+}
+
+h5{
+	text-align: center;
+	font-size: 110%;
+	color: var(--color-contenido);
+	padding-bottom: 3%;
+	margin: 0 10%;	
+}
+
+.divider{
+	height: 2px;
+	width: 70px;
+	background-color: var(--color-titulos);
+	margin-bottom: 1.5%;
+	margin-top: 1.5%;
+	margin-left: 47%;
+}
+
+p{
+	text-align: center;
+	font-size: 110%;
+	color: var(--color-contenido);
+	padding-bottom: 3%;
+	margin: 0 10%;
+}
+
+i{
+	font-size: 100px;
+	font-weight: 800;
+	color: #000000;
+}
+
+h3{
+	color: #000000;
+	text-align: center;
+	font-weight: 600;
+}
+
+.col-md-3{
+	border: 2px medium #000000;
+	background-color: rgba(106,147,150,0.32);
+	padding: 3% 0.5%;
+	margin-left: 6.5%;
+	align-items: center;
+}
+
+#welcome h3, p, ul, il{
+	text-align: left;
+}
+
+#welcome img{
+	width: 600px;
+}
+
+#gallery{
+	background-color: #2750d0;
+}
+
+#gallery h2{
+	color: var(--color-naranja);
+	margin-top: 3%;
+}
+
+#gallery h5{
+	color: #FFFFFF;
+}
+
+#gallery img{
+	width: 300px;
+}
+
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: #acbad4;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 13px;
+}
